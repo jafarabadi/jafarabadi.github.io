@@ -1,0 +1,15 @@
+{
+    "name": "Ali Jafarabadi",
+    "short_name": "alphajafarabadi",
+    "start_url": "https://jafarabadi.github.io",
+    "display": "fullscreen",
+    "background_color": "#fff",
+    "theme_color": "white",
+    "orientation": "landscape",
+    "description": "Official Github page",
+    "icons": [{
+        "src": "./jafarabadi.jpg",
+        "sizes": "250x250",
+        "type": "image/jpg"
+    }]
+}

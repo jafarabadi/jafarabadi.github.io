@@ -1,0 +1,220 @@
+* {
+    -webkit-transition: all 0.320s;
+    -o-transition: all 0.320s;
+    transition: all 0.320s;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 1px;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #212529;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    color: gray;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    line-height: 32px;
+    color: #212529;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+@media (max-width: 580px) {
+
+    h2,
+    section .pb-5,
+    .py-5 {
+        font-size: 20px;
+        padding-bottom: 25px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+}
+
+.container {
+    max-width: 800px !important;
+    padding: 10px 15px;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+header {
+    padding: 100px 10px;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.custom-main-header {
+    padding: 100px 10px;
+    min-height: 100vh;
+
+}
+
+.custom-main-header .custom-img {
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.custom-main-header .social-icons ul {
+    padding: 15px 0 0 0;
+    margin: 0;
+}
+
+.custom-main-header .social-icons ul li {
+    padding: 0 5px 0 0;
+    margin: 5px 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.custom-main-header .social-icons ul li a {
+    font-size: 18px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #212529;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.custom-main-header .social-icons ul li a:hover {
+    background: #434b53;
+}
+
+@media (max-width: 768px) {
+
+
+
+    .custom-main-header {
+        padding: 100px 0px !important;
+    }
+
+    .custom-main-header * {
+        text-align: center;
+    }
+
+    .custom-main-header .custom-container {
+        padding: 0 !important;
+    }
+
+    .custom-main-header .custom-box {
+        width: 100%;
+        padding-top: 25px;
+        padding-left: 0 !important;
+    }
+
+    .custom-main-header .custom-img {
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .custom-main-header .custom-username {
+        font-size: 28px;
+    }
+
+    .custom-main-header .custom-lead {
+        font-size: 15px;
+    }
+
+    .custom-main-header .social-icons ul {
+        padding: 25px 0 0 0;
+        margin-left: 15px !important;
+    }
+
+    .custom-main-header .social-icons ul li {
+        padding: 0 10px 0 0;
+    }
+
+    .custom-main-header .social-icons ul li a {
+        font-size: 14px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        padding: 156px 0 100px;
+    }
+}
+
+.pl-1,
+.px-1 {
+    padding: 0 !important;
+    font-size: 1.35rem;
+}
