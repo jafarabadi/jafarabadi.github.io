@@ -38,11 +38,6 @@ a {
     color: gray;
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
-
 a:hover {
     color: #212529;
     text-decoration: none;
@@ -51,6 +46,11 @@ a:hover {
 a:focus {
     outline: none;
     text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 p {
@@ -62,24 +62,6 @@ ul,
 li {
     margin: 0;
     padding: 0;
-}
-
-section {
-    padding: 50px 0;
-}
-
-@media (max-width: 580px) {
-
-    h2,
-    section .pb-5,
-    .py-5 {
-        font-size: 20px;
-        padding-bottom: 25px !important;
-    }
-
-    p {
-        font-size: 16px !important;
-    }
 }
 
 .container {
@@ -108,7 +90,6 @@ header {
 .custom-main-header {
     padding: 100px 10px;
     min-height: 100vh;
-
 }
 
 .custom-main-header .custom-img {
@@ -154,9 +135,35 @@ header {
     background: #434b53;
 }
 
+.pl-1,
+.px-1 {
+    padding: 0 !important;
+    font-size: 1.35rem;
+}
+
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.1;
+}
+
+@media (max-width: 580px) {
+
+    h2,
+    .py-5 {
+        font-size: 20px;
+        padding-bottom: 25px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+}
+
 @media (max-width: 768px) {
-
-
 
     .custom-main-header {
         padding: 100px 0px !important;
@@ -193,11 +200,11 @@ header {
 
     .custom-main-header .social-icons ul {
         padding: 25px 0 0 0;
-        margin-left: 15px !important;
     }
 
     .custom-main-header .social-icons ul li {
-        padding: 0 10px 0 0;
+        padding: 0 10px 0 10px;
+        text-align: -webkit-center;
     }
 
     .custom-main-header .social-icons ul li a {
@@ -211,19 +218,4 @@ header {
     header {
         padding: 156px 0 100px;
     }
-}
-
-.pl-1,
-.px-1 {
-    padding: 0 !important;
-    font-size: 1.35rem;
-}
-
-#bgVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 0.1;
 }
