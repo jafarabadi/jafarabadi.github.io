@@ -218,3 +218,12 @@ header {
     padding: 0 !important;
     font-size: 1.35rem;
 }
+
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.1;
+}
