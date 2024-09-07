@@ -1,3 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://j8i.link/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme = 'j8ilink-theme'
